@@ -1,0 +1,7 @@
+.yourFortune {
+  display: none;
+}
+
+#goodLuck, #badLuck, #neutralLuck {
+  display: none;
+}
