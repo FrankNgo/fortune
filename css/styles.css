@@ -1,7 +1,11 @@
-.yourFortune {
+#goodLuck, #badLuck, #neutralLuck {
   display: none;
 }
 
-#goodLuck, #badLuck, #neutralLuck {
-  display: none;
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  margin-top: 30px;
 }

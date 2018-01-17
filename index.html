@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <meta charset="utf-8">
@@ -11,30 +12,45 @@
   <body>
     <div class="container">
       <form id="fortuneForm">
-        <p>In the past week, select the following things you have done: </p>
-        <input type="checkbox" name="luckVal" value="beginnerLuck">Beginner's luck </input>
-        <input type="checkbox" name="luckVal" value="foundPenny">Found a penny</input>
-        <input type="checkbox" name="luckVal" value="underLadder">Walked under a ladder</input>
-        <input type="checkbox" name="luckVal" value="blackCat">Saw a black cat</input>
-        <input type="checkbox" name="luckVal" value="brokeMirror">Broke a mirror</input>
-        <input type="checkbox" name="luckVal" value="saw666">Saw the numbers 666</input>
-        <input type="checkbox" name="luckVal" value="knockWood">Knocked on wood</input>
-        <input type="checkbox" name="luckVal" value="umbrellaInside">Opened an umbrella inside</input>
-        <input type="checkbox" name="luckVal" value="friday13">Friday on the 13th of a month</input>
-        <button type="submit">Find out your luck</button>
-      </form>
-    </div>
-    
-    <h3>Your luck is: </h3>
-    <div id="goodLuck">
-      <p> GOOD</p>
-    </div>
-    <div id="badLuck">
-      <p> BAD</p>
-    </div>
-    <div id="neutralLuck">
-      <p> NEUTRAL</p>
-    </div>
+        <div class="panel panel-default">
+          <div class="panel panel-heading">
+            <h2>In the past week, select the following things you have done: </h2>
+          </div>
+          <div class="panel panel-body">
+            <p><input type="checkbox" name="luckVal" value="beginnerLuck"> Beginner's luck</p> </input>
+            <p><input type="checkbox" name="luckVal" value="foundPenny"> Found a penny</p></input>
+            <p><input type="checkbox" name="luckVal" value="underLadder"> Walked under a ladder</p></input>
+            <p><input type="checkbox" name="luckVal" value="blackCat"> Saw a black cat</p></input>
+            <p><input type="checkbox" name="luckVal" value="brokeMirror"> Broke a mirror</p></input>
+            <p><input type="checkbox" name="luckVal" value="saw666"> Saw the numbers 666</p></input>
+            <p><input type="checkbox" name="luckVal" value="knockWood"> Knocked on wood</p></input>
+            <p><input type="checkbox" name="luckVal" value="umbrellaInside"> Opened an umbrella inside</p></input>
+            <p><input type="checkbox" name="luckVal" value="friday13"> Friday on the 13th of a month</p></input>
+            <button type="submit" class="btn btn-success">Find out your luck</button>
+          </div>
+          </form>
 
+        </div>
+
+
+          <div id="goodLuck">
+            <h3>Your luck is: </h3>
+            <p> GOOD</p>
+            <a href="index.html"><h2><button type="button" class="btn btn-danger">Start Over</button></h2></a>
+          </div>
+
+          <div id="badLuck">
+            <h3>Your luck is: </h3>
+            <p> BAD</p>
+            <a href="index.html"><h2><button type="button" class="btn btn-danger">Start Over</button></h2></a>
+          </div>
+
+          <div id="neutralLuck">
+            <h3>Your luck is: </h3>
+            <p> NEUTRAL</p>
+            <a href="index.html"><h2><button type="button" class="btn btn-danger">Start Over</button></h2></a>
+          </div>
+
+    </div>
   </body>
 </html>

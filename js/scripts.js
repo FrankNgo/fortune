@@ -31,15 +31,15 @@ $(document).ready(function() {
 
     if (result > 0) {
       $("#goodLuck").show();
-      $(".container").hide();
+      $("form").hide();
 
     } else if (result < 0) {
       $("#badLuck").show();
-      $(".container").hide();
-      
+      $("form").hide();
+
     } else if (result === 0) {
       $("#neutralLuck").show()
-      $(".container").hide();
+      $("form").hide();
     }
   });
 });
